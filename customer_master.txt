@@ -1,0 +1,28 @@
+CREATE TABLE customer_master
+(
+    cus_id int,
+    cus_full_name char(100),
+    cus_address char(200),
+    date_of_birth date,
+    cus_landline_num decimal(10),
+    cus_mobile_num decimal(10),
+    cus_blood_group char(3)
+);
+
+INSERT INTO `customer_master`(`cus_id`, `cus_full_name`, `cus_address`, `date_of_birth`, `cus_landline_num`, `cus_mobile_num`, `cus_blood_group`)
+VALUES (1,'sahil ladola','surat','2003-07-18',9090909090,7990117431,'b+')
+
+INSERT INTO `customer_master`(`cus_id`, `cus_full_name`, `cus_address`, `date_of_birth`, `cus_landline_num`, `cus_mobile_num`, `cus_blood_group`)
+VALUES (2,'jenish patel','bardoli','2001-01-01',9990099099,9779079079,'ab+')
+
+INSERT INTO `customer_master`(`cus_id`, `cus_full_name`, `cus_address`, `date_of_birth`, `cus_landline_num`, `cus_mobile_num`, `cus_blood_group`)
+VALUES (3,'alish khadawala','surat','2002-06-07',7770700775,7570070707,'ab+')
+
+INSERT INTO `customer_master`(`cus_id`, `cus_full_name`, `cus_address`, `date_of_birth`, `cus_landline_num`, `cus_mobile_num`, `cus_blood_group`)
+VALUES (4,'yash lakhni','navsari','2003-09-09',9109109110,9009001001,'a+')
+
+
+
+
+INSERT INTO `customer_master`(`cus_id`, `cus_full_name`, `cus_address`, `date_of_birth`, `cus_landline_num`, `cus_mobile_num`, `cus_blood_group`)
+VALUES (,'','','',,,'')

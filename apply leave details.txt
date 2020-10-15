@@ -1,0 +1,24 @@
+CREATE TABLE apply_leave_details
+(
+    l_id int,
+    stu_name varchar(50),
+    semester int,
+    to_date date,
+    from_date date,
+    to_time decimal(4,2),
+    from_time decimal(4,2),
+    reason varchar(100),
+    Status varchar(7)
+);
+
+INSERT INTO `apply_leave_details`(`l_id`, `stu_name`, `semester`, `to_date`, `from_date`, `to_time`, `from_time`, `reason`, `Status`)
+VALUES (1,'parth lakhani',1,'2020-08-20','2020-09-09',24.00,24.00,'corona positive','approve')
+
+INSERT INTO `apply_leave_details`(`l_id`, `stu_name`, `semester`, `to_date`, `from_date`, `to_time`, `from_time`, `reason`, `Status`)
+VALUES (2,'jnv ladola',6,'2020-01-01','2020-01-03',24.00,24.00,'headache','approve')
+
+INSERT INTO `apply_leave_details`(`l_id`, `stu_name`, `semester`, `to_date`, `from_date`, `to_time`, `from_time`, `reason`, `Status`)
+VALUES (3,'abcd',4,'2020-02-02','2020-02-20',24.00,24.00,'family vacation','reject')
+	
+INSERT INTO `apply_leave_details`(`l_id`, `stu_name`, `semester`, `to_date`, `from_date`, `to_time`, `from_time`, `reason`, `Status`)
+VALUES (,'',,'','',,,'','')

@@ -1,0 +1,24 @@
+ CREATE TABLE employee_master
+(
+    E_id int,
+    E_full_name char(100),
+    E_address char(20),
+    E_gender char(1),
+    date_of_birth date,
+    E_designtion char(20),
+    E_department char(50),
+    E_salary decimal(6,2),
+    E_experince int,
+    date_of_join date
+);
+
+INSERT INTO `employee_master`(`E_id`, `E_full_name`, `E_address`, `E_gender`, `date_of_birth`, `E_designtion`, `E_department`, `E_salary`, `E_experince`, `date_of_join`) 
+VALUES (1,'sahil ladola','surat','m','2003-07-18','professor','bmiit','9999.00',5,'2020-01-01')
+
+
+INSERT INTO `employee_master`(`E_id`, `E_full_name`, `E_address`, `E_gender`, `date_of_birth`, `E_designtion`, `E_department`, `E_salary`, `E_experince`, `date_of_join`) 
+VALUES (2,'janvi ladola','surat','f','1999-11-15','HOD','bmiit','50000.00',10,'2010-10-10')
+
+
+INSERT INTO `employee_master`(`E_id`, `E_full_name`, `E_address`, `E_gender`, `date_of_birth`, `E_designtion`, `E_department`, `E_salary`, `E_experince`, `date_of_join`) 
+VALUES (,'','','','','','','',,'')

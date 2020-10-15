@@ -8,7 +8,7 @@ CREATE TABLE apply_leave_details
     to_time decimal(4,2),
     from_time decimal(4,2),
     reason varchar(100),
-    Status varchar(7)
+    Status varchar(8)
 );
 
 INSERT INTO `apply_leave_details`(`l_id`, `stu_name`, `semester`, `to_date`, `from_date`, `to_time`, `from_time`, `reason`, `Status`)
